@@ -7,6 +7,14 @@ public class Prenda {
 	String material;
 	Color color;
 	
+	public boolean esValida () {
+		
+	}
+	
+	public Prenda (Tipo unTipo, Categoria unaCategoria, Material unMaterial, Color unColor ) {
+		
+	}
+	
 	
 	
 	
@@ -20,5 +28,7 @@ enum Tipo {
 enum Categoria {
 	parteSuperior, calzado, parteInferior, accesorios;
 }
+
+enum Material {}
 
 enum Color {}
