@@ -11,10 +11,12 @@ public class Prenda {
 		
 	}
 	
-	public Prenda (Tipo unTipo, Categoria unaCategoria, Material unMaterial, Color unColor ) {
-		
+
+	public Prenda (Tipo unTipo, Material unMaterial, Color unColor){ 
+		tipo = requireNonNull(unTipo, "La prenda requiere un tipo");
+		material = requireNonNull(unMaterial, "La prenda requiere un material");
+		color = requireNonNull(unColor, "La prenda requiere un color primario");
 	}
-	
 	
 	
 	
@@ -33,6 +35,5 @@ enum Categoria {
 	parteSuperior, calzado, parteInferior, accesorios;
 }
 
-enum Material {}
 
 enum Color {}
