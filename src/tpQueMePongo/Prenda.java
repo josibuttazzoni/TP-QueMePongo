@@ -13,9 +13,9 @@ public class Prenda {
 	
 
 	public Prenda (Tipo unTipo, Material unMaterial, Color unColor){ 
-		tipo = requireNonNull(unTipo, "La prenda requiere un tipo");
-		material = requireNonNull(unMaterial, "La prenda requiere un material");
-		color = requireNonNull(unColor, "La prenda requiere un color primario");
+		this.tipo = requireNonNull(unTipo, "La prenda requiere un tipo");
+		this.material = requireNonNull(unMaterial, "La prenda requiere un material");
+		this.color = requireNonNull(unColor, "La prenda requiere un color primario");
 	}
 	
 	
