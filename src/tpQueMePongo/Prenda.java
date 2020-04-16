@@ -4,7 +4,7 @@ public class Prenda {
 	
 	Tipo tipo;
 	Categoria categoria;
-	String material;
+	Material material;
 	Color color;
 	
 	public boolean esValida () {
@@ -23,6 +23,10 @@ public class Prenda {
 
 enum Tipo {
 	zapatos, camisaMangaCorta, pantalon;
+}
+
+enum Material {
+	
 }
 
 enum Categoria {
