@@ -3,7 +3,6 @@ package tpQueMePongo;
 public class Prenda {
 	
 	Tipo tipo;
-	Categoria categoria;
 	Material material;
 	Color color;
 	
@@ -22,18 +21,8 @@ public class Prenda {
 	
 }
 
-
-enum Tipo {
-	zapatos, camisaMangaCorta, pantalon;
-}
-
 enum Material {
 	
 }
-
-enum Categoria {
-	parteSuperior, calzado, parteInferior, accesorios;
-}
-
 
 enum Color {}
