@@ -2,12 +2,11 @@ package tpQueMePongo;
 
 public class Prenda {
 	
-	Tipo tipo;
+	TipoDePrenda tipo;
 	Material material;
 	Color color;
 	
-	public boolean esValida () {
-		
+
 	}
 	
 
@@ -21,8 +20,6 @@ public class Prenda {
 	
 }
 
-enum Material {
-	
-}
+enum Material {}
 
 enum Color {}

@@ -1,6 +1,6 @@
 package tpQueMePongo;
 
-public class Tipo {
+public class TipoDePrenda {
 	Categoria categoria;
 }
 
