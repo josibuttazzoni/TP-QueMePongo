@@ -16,10 +16,11 @@ public class Prenda {
 	}
 	
 
-	public Prenda(TipoDePrenda tipo, Material material, Color color) {
+	public Prenda(TipoDePrenda tipo, Material material, Color color, Trama trama) {
 	  this.tipo = Objects.requireNonNull(tipo, "El tipo de prenda es obligatorio");
 	  this.material = Objects.requireNonNull(material, "El material es obligatorio");
 	  this.colorPrimario = Objects.requireNonNull(color, "El color primario es obligatorio");
+	  this.trama = Objects.requireNonNull(trama, "El color primario es obligatorio");
 	}
 	
 	
@@ -30,4 +31,4 @@ enum Material {}
 
 enum Color {}
 
-enum Trama {}
+enum Trama {lisa, rayada, conLunares, aCuadros,conEstampado}
