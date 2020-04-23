@@ -1,19 +1,24 @@
 package tpQueMePongo;
 
+import java.util.Objects;
+
 public class Prenda {
 	
 	TipoDePrenda tipo;
 	Material material;
-	Color color;
+	Color colorPrimario;
+	Color colorSecundario;
 	
 
+	public Categoria getGategoria() {
+		return tipo.getCategoria();
 	}
 	
 
-	public Prenda (Tipo unTipo, Material unMaterial, Color unColor){ 
-		this.tipo = requireNonNull(unTipo, "La prenda requiere un tipo");
-		this.material = requireNonNull(unMaterial, "La prenda requiere un material");
-		this.color = requireNonNull(unColor, "La prenda requiere un color primario");
+	public Prenda(TipoDePrenda tipo, Material material, Color color) {
+	  this.tipo = Objects.requireNonNull(tipo, "El tipo de prenda es obligatorio");
+	  this.material = Objects.requireNonNull(material, "El material es obligatorio");
+	  this.colorPrimario = Objects.requireNonNull(color, "El color primario es obligatorio");
 	}
 	
 	
