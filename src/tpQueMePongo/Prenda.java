@@ -8,6 +8,7 @@ public class Prenda {
 	Material material;
 	Color colorPrimario;
 	Color colorSecundario;
+	Trama trama;
 	
 
 	public Categoria getGategoria() {
@@ -28,3 +29,5 @@ public class Prenda {
 enum Material {}
 
 enum Color {}
+
+enum Trama {}
