@@ -32,9 +32,3 @@ public class Prenda {
 	
 	
 }
-
-enum Material {}
-
-enum Color {}
-
-enum Trama {LISA, RAYADA, A_CUADROS}
