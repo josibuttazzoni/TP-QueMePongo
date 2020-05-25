@@ -10,24 +10,24 @@ public class Borrador {
 	Color colorSecundario;
 	Trama trama;
 	
-	void especificarTipo (TipoDePrenda tipo) {
-		this.tipo = Objects.requireNonNull(tipo, "El tipo de prenda es obligatorio");
+	public Borrador(TipoDePrenda tipoPrenda) {
+		this.tipo = Objects.requireNonNull(tipoPrenda, "El tipo de prenda es obligatorio");
 	}
 	
-	void especificarMaterial (Material material) {
+	public void especificarMaterial (Material material) {
 		 this.validarMaterialConsistenteConTipoDePrenda(material);
 		 this.material = material;
 	}
 	
-	void especificarColorPrimario (Color colorPrimario) {
+	public void especificarColorPrimario (Color colorPrimario) {
 		this.colorPrimario = Objects.requireNonNull(colorPrimario, "El colorPrimario de prenda es obligatorio");
 	}
 	
-	void especificarColorSecundario (Color colorSecundario) {
+	public void especificarColorSecundario (Color colorSecundario) {
 		this.colorSecundario = colorSecundario;
 	}
 	
-	void especificarTrama (Trama trama) {
+	public void especificarTrama (Trama trama) {
 		if (trama == null) {
 			this.trama = Trama.LISA;
 		}
