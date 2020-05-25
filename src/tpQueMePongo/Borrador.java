@@ -29,7 +29,7 @@ public class Borrador {
 	
 	void especificarTrama (Trama trama) {
 		if (trama == null) {
-			this.trama = Trama.lisa;
+			this.trama = Trama.LISA;
 		}
 		else this.trama = trama;
 	}

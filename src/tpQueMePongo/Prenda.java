@@ -1,5 +1,6 @@
 package tpQueMePongo;
 
+import java.util.HashMap;
 import java.util.Objects;
 
 public class Prenda {
@@ -23,6 +24,11 @@ public class Prenda {
 	  this.trama = Objects.requireNonNull(trama, "El color primario es obligatorio");
 	}
 	
+	public boolean esAcordePara(HashMap<?, ?> temperatura) {
+		return false;
+		
+	}
+	
 	
 	
 }
@@ -31,4 +37,4 @@ enum Material {}
 
 enum Color {}
 
-enum Trama {lisa, rayada, conLunares, aCuadros,conEstampado}
+enum Trama {LISA, RAYADA, A_CUADROS}
