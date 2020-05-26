@@ -1,9 +1,10 @@
 package tpQueMePongo;
+
 import java.util.*;
 
 public final class AccuWeatherAPI {
 
-    @SuppressWarnings({ "unchecked", "rawtypes", "serial" })
+    @SuppressWarnings({ "serial", "rawtypes", "unchecked" })
 	public final List<HashMap> getWeather(String ciudad) {
         return Arrays.asList(new HashMap(){{
             put("DateTime", "2019-05-03T01:00:00-03:00");
