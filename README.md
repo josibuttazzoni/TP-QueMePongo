@@ -1,9 +1,9 @@
-##Diagrama resumido cuarta iteracion
+## Diagrama resumido cuarta iteracion
 <br>
 <img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/QMP%20tercerIteracion2.png" />
 <br>
 
-##Diagramas segunda iteracion
+## Diagramas segunda iteracion
 <br>
 <img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/QMP%20segIteracion1.png" />
 <br>
