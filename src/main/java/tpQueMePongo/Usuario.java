@@ -9,19 +9,14 @@ public class Usuario {
 	
 	List<Prenda> guardarropas = new ArrayList<>(); 
 	
-    public int getTemperatura(String ciudad) {
-        @SuppressWarnings("unchecked")
-		HashMap<String, Object> datos = (HashMap<String, Object>) new AccuWeatherAPI().getWeather(ciudad).get(0).get("Temperature");
-        int temperatura = (int) datos.get("Value");
-        return temperatura;
-    }
 	
-	Stream<Prenda> getPrendasAptas(String ciudad) {
-		return guardarropas.stream().filter(prenda -> prenda.esAcordePara(this.getTemperatura(ciudad)));
+	Stream<Prenda> getPrendasAptas(AdaptadorClima obtenedorClima, String ciudad) {
+		int temperatura = obtenedorClima.getTemperatura(ciudad);
+		return guardarropas.stream().filter(prenda -> prenda.esAcordePara(temperatura));
 	}
 	
-	public Sugerencia getSugerencia() {
-		return null;
+	public List<Sugerencia> getSugerencias(AdaptadorClima obtenedorClima, GeneradorSugerencias generador, String ciudad) {
+		return generador.generarSugerenciasDesde(getPrendasAptas(obtenedorClima,ciudad));
 		
 	}
 	
