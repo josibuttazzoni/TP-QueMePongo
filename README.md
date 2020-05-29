@@ -1,6 +1,6 @@
 ## Diagrama resumido cuarta iteracion
 <br>
-<img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/QMP%20tercerIteracion2.png" />
+<img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/QMP%20tercerIteracion3.png" />
 <br>
 
 ## Diagramas segunda iteracion
