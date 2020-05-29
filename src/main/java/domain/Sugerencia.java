@@ -1,13 +1,13 @@
-package tpQueMePongo;
+package domain;
 
-public class Atuendo {
+public class Sugerencia {
 	
 	Prenda parteSuperior;
 	Prenda parteInferior;
 	Prenda calzado;
 	Prenda accesorio;
 	
-	public Atuendo (Prenda parteSuperior, Prenda parteInferior, Prenda calzado, Prenda accesorio) {
+	public Sugerencia (Prenda parteSuperior, Prenda parteInferior, Prenda calzado, Prenda accesorio) {
 		
 		this.parteSuperior = parteSuperior;
 		this.parteInferior = parteInferior;
@@ -15,6 +15,5 @@ public class Atuendo {
 		this.accesorio = accesorio;
 		
 	}
-	
-	
+
 }

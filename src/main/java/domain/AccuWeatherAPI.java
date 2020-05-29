@@ -1,4 +1,4 @@
-package tpQueMePongo;
+package domain;
 
 import java.util.*;
 

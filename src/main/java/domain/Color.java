@@ -1,4 +1,4 @@
-package tpQueMePongo;
+package domain;
 
 public class Color {
 	
