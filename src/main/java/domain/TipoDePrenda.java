@@ -18,6 +18,4 @@ public class TipoDePrenda {
 }
 
 
-enum Categoria {
-	parteSuperior, calzado, parteInferior, accesorios;
-}
+

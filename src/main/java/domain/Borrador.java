@@ -9,6 +9,7 @@ public class Borrador {
 	Color colorPrimario;
 	Color colorSecundario;
 	Trama trama;
+	Clasificacion clasificacion;
 	
 	public Borrador(TipoDePrenda tipoPrenda) {
 		this.tipo = Objects.requireNonNull(tipoPrenda, "El tipo de prenda es obligatorio");
@@ -34,11 +35,15 @@ public class Borrador {
 		else this.trama = trama;
 	}
 	
+	public void especificarClasificacion (Clasificacion clasificacion) {
+		this.clasificacion = clasificacion;
+	}
+	
 	boolean validarMaterialConsistenteConTipoDePrenda(Material material) {
 		return true;
 	}
 	
 	public Prenda crearPrenda() {
-		return new Prenda(tipo, material, colorPrimario, trama);
+		return new Prenda(tipo, material, colorPrimario, colorSecundario, trama, clasificacion);
 	}
 }

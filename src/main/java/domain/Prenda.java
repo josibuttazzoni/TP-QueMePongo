@@ -1,7 +1,5 @@
 package domain;
 
-import java.util.Objects;
-
 public class Prenda {
 	
 	TipoDePrenda tipo;
@@ -9,6 +7,8 @@ public class Prenda {
 	Color colorPrimario;
 	Color colorSecundario;
 	Trama trama;
+	Clasificacion clasificacion;
+	
 	
 
 	public Categoria getGategoria() {
@@ -16,11 +16,13 @@ public class Prenda {
 	}
 	
 
-	public Prenda(TipoDePrenda tipo, Material material, Color color, Trama trama) {
-	  this.tipo = Objects.requireNonNull(tipo, "El tipo de prenda es obligatorio");
-	  this.material = Objects.requireNonNull(material, "El material es obligatorio");
-	  this.colorPrimario = Objects.requireNonNull(color, "El color primario es obligatorio");
-	  this.trama = Objects.requireNonNull(trama, "El color primario es obligatorio");
+	public Prenda(TipoDePrenda tipo, Material material, Color color, Color colorSec, Trama trama, Clasificacion clasificacion) {
+	  this.tipo = tipo;
+	  this.material = material;
+	  this.colorPrimario = color;
+	  this.colorSecundario = colorSec;
+	  this.trama = trama;
+	  this.clasificacion = clasificacion;
 	}
 	
 	public boolean esAcordePara(int temperatura) {
