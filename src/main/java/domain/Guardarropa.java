@@ -15,7 +15,7 @@ public class Guardarropa {
 		prendas.remove(prenda);
 	}
 
-	Stream<Prenda> getPrendasAptas(AdaptadorClima obtenedorClima, String ciudad) {
+	Stream<Prenda> getPrendasAptas(ServicioMeteorologico obtenedorClima, String ciudad) {
 		int temperatura = obtenedorClima.getTemperatura(ciudad);
 		return prendas.stream().filter(prenda -> prenda.esAcordePara(temperatura));
 	}

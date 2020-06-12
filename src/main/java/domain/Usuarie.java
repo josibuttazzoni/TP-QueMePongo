@@ -4,10 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
-public class Usuario {
+public class Usuarie {
 	
 	String ciudad;
-	AdaptadorClima obtenedorClima;
+	ServicioMeteorologico obtenedorClima;
 	List<Guardarropa> guardarropas = new ArrayList<>();
 	List<Propuesta> propuestas = new ArrayList<>();
 	

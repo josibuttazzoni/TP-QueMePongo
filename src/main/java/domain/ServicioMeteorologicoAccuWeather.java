@@ -2,7 +2,7 @@ package domain;
 
 import java.util.HashMap;
 
-public class AccuWeatherAdapter implements AdaptadorClima {
+public class ServicioMeteorologicoAccuWeather implements ServicioMeteorologico {
 	
 	AccuWeatherAPI apiClima = new AccuWeatherAPI();
 	

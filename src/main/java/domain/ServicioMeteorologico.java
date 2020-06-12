@@ -1,6 +1,6 @@
 package domain;
 
-public interface AdaptadorClima {
+public interface ServicioMeteorologico {
 		
 	int getTemperatura(String ciudad);
 
