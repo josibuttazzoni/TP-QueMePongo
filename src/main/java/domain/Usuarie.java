@@ -16,6 +16,14 @@ public class Usuarie {
 		return guardarropa.getPrendasAptas(obtenedorClima, ciudad);
 	}
 	
+	public Atuendo getSugerenciaDiaria() {
+		
+	}
+	
+	public void actualizarSugerencia() {
+		
+	}
+	
 	/*public List<Sugerencia> getSugerencias(AdaptadorClima obtenedorClima, GeneradorSugerencias generador, String ciudad) {
 		return generador.generarSugerenciasDesde(getPrendasAptas(obtenedorClima,ciudad));
 		
