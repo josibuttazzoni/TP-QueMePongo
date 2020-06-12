@@ -1,10 +1,12 @@
 ## Diagrama resumido sexta iteracion
+. *(Muchas cosas para revisar)*
+
 <br>
 <img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/Diagramas/QMPsextaIteracion2.png" />
 <br>
 
 ### TODO
-- [ ] Completar diagrama de clases
+- [ ] Completar (y corregir) diagrama de clases
 - [ ] Pasar ideas diagrama a codigo
 - [ ] Ver puntos bonus
 
