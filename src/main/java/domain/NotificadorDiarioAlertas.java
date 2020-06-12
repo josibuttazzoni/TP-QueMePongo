@@ -11,11 +11,11 @@ public class NotificadorDiarioAlertas {
 	}
 	
 	void suscribirUsuarie (Usuarie usuarie) {
-		interesades.add(usuarie);
+		usuaries.add(usuarie);
 	}
 	
 	void desuscribirUsuarie (Usuarie usuarie) {
-		interesades.remove(usuarie);
+		usuaries.remove(usuarie);
 	}
 
 }
