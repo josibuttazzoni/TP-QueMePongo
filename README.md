@@ -2,7 +2,6 @@
 . *(Muchas cosas para revisar)*
 
 
-<img src="https://github.com/josibuttazzoni/TP-QueMePongo/blob/master/Diagramas/QMPsextaIteracion2.png" />
 
 
 ### TODO
