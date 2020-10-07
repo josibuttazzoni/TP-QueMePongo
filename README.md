@@ -1,9 +1,6 @@
 ## Diagrama resumido sexta iteracion
 . *(Muchas cosas para revisar)*
 
-
-
-
 ### TODO
 - [ ] Completar (y corregir) diagrama de clases
 - [ ] Pasar ideas diagrama a codigo
